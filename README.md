@@ -14,3 +14,10 @@
 1. `npm init`
 1. grunt
 1. Ignoring node modules from git
+1. Build / transposing tools in grunt
+1. Dev Webserver
+1. Concurrent scripts
+
+## Running
+
+`npm run dev`
