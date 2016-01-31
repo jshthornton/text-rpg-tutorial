@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "`git clone git@github.com:jshthornton/text-rpg-tutorial.git`",
   "main": "index.js",
-  "scripts": {
-    "start": "grunt watch"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jshthornton/text-rpg-tutorial.git"
