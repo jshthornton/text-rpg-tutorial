@@ -8,6 +8,8 @@
 1. node.js
 1. npm
 1. global grunt `npm install -g grunt-cli`
+1. Ruby
+1. SASS
 
 ## Steps taken to setup
 
