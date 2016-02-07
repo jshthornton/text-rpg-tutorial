@@ -30,5 +30,8 @@
   },
   "scripts": {
     "dev": "grunt concurrent:dev"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
   }
 }
