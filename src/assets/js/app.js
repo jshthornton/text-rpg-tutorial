@@ -1,5 +1,7 @@
 import Dispatcher from './Dispatcher';
 
+import LevelLayoutBuilder from './level/LevelLayoutBuilder';
+
 import AppStore from './stores/AppStore';
 
 import DebugActionCreator from './actions/DebugActionCreator';
@@ -9,7 +11,9 @@ import Debug from './components/Debug';
 
 var dispatcher = new Dispatcher();
 
-var appStore = new AppStore();
+var levelLayoutBuilder = new LevelLayoutBuilder();
+
+var appStore = new AppStore(levelLayoutBuilder);
 var debugActionCreator = new DebugActionCreator(dispatcher);
 
 dispatcher.register(appStore);

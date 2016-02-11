@@ -1,11 +1,15 @@
 import Constants from '../constants/Constants';
 import $ from 'jquery';
 
+
 export default class {
-  constructor() {
+  constructor(levelLayoutBuilder) {
+    this.__levelLayoutBuilder = levelLayoutBuilder;
+
     this.__level = 0;
     this.__playerX = 0;
     this.__playerY = 0;
+    this.__levelLayout = levelLayoutBuilder.build(this.__level);
   }
 
   getLevel() {
