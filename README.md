@@ -10,6 +10,7 @@
 1. global grunt `npm install -g grunt-cli`
 1. Ruby
 1. SASS
+1. global karma `npm install -g karma-cli`
 
 ## Steps taken to setup
 

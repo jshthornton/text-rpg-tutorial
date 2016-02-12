@@ -115,6 +115,11 @@ module.exports = grunt => {
     },
     concurrent: {
       dev: ['connect', 'watch'],
+    },
+    karma: {
+      unit: {
+        configFile: 'karma.conf.js'
+      }
     }
   });
   // Default task(s).
